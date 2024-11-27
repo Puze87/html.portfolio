@@ -1,0 +1,243 @@
+body {
+    background-color: #2E3944;
+  }
+  
+  h1 {
+    color: #748D92;
+    text-align: center;
+  }
+  
+  .Start {
+    font-family: verdana;
+    font-size: 20px;
+    color: #748D92;
+    margin-top: 75px; /* Flytter teksten 200px ned fra toppen */
+    text-align: center; /* Sentraliserer teksten horisontalt (valgfritt) */
+    font-size: 18px; /* Juster størrelsen på teksten (valgfritt) */
+
+  }
+
+.info{
+  font-family: verdana;
+  font-size: 20px;
+  color: #748D92;
+  margin-top: 50px;
+  text-align: center;
+
+}
+  .Bilder {
+    position: static; /* Gjør at headeren er fast og alltid synlig */
+    top: 0;          /* Plasserer headeren øverst i nettleseren */
+    left: 0;         /* Plasserer headeren helt til venstre */
+    width: 100%;     /* Sørger for at headeren dekker hele bredden */
+    height: 150px;   /* Setter høyden på headeren */
+    color: white;    /* Tekstfarge */
+    z-index: 1000;   /* Sørger for at headeren er foran annet innhold */
+
+  }
+    
+    .Hei{
+      text-align: center;
+      color: #748D92;
+      font-family: verdana;
+      font-size: 25px;
+  
+    }
+
+    .info1 {
+      width: 300px; /* Bredde på boksen */
+      padding: 30px; /* Lufte mellom teksten og kantene */
+      border: 2px solid #748D92; /* Kant rundt boksen */
+      background-color: #2E3944; /* Bakgrunnsfarge for boksen */
+      color: #748D92; /* Tekstfarge */
+      font-family: Verdana, sans-serif; /* Font for teksten */
+      border-radius: 10px; /* Runde hjørner på boksen */
+      box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Lett skygge for dybdeeffekt */
+    }
+    
+  
+  .kontakt{
+    color: white;
+    margin: auto;
+    font-size: 25px;
+
+  }
+  .Nyheter{
+    color: #748D92;
+    font-size: 15px;
+    font-family: verdana;
+    
+  }
+  .overskriftprosjekt{
+    font-family: verdana;
+    font-size: 20px;
+    color: #748D92;
+    margin-top: 75px; /* Flytter teksten 200px ned fra toppen */
+    text-align: center; /* Sentraliserer teksten horisontalt (valgfritt) */
+    font-size: 50px;
+   
+  }
+
+  .CC{
+    font-family: verdana;
+    font-size: 20px;
+    color: #000000;
+    margin-top: 75px; /* Flytter teksten 200px ned fra toppen */
+    text-align: center; /* Sentraliserer teksten horisontalt (valgfritt) */
+    font-size: 10px;
+   
+  }
+
+  .uten{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+
+
+  .Kontakt {
+    display: inline-block;
+    background-color:#748D92 ;
+    color: #2E3944; 
+    font-size: 18px; /* Økt tekststørrelse */
+    padding: 10px 10px; /* Større padding */
+    text-align: center; /* Sentralisering */
+    border-radius: 10px; /* Mer rundede hjørner */
+    text-decoration: none; /* Fjerner lenkens standard understreking */
+    transition: transform 0.3s ease, background-color 0.3s ease;
+  }
+  
+  .Kontakt:hover {
+    background-color: #D3D9D4; 
+    transform: scale(1.1); 
+    cursor: pointer; 
+  }
+  
+
+  .prosjekter {
+    display: inline-block;
+    background-color:#748D92 ;
+    color: #2E3944; 
+    font-size: 18px; /* Økt tekststørrelse */
+    padding: 10px 10px; /* Større padding */
+    text-align: center; /* Sentralisering */
+    border-radius: 10px; /* Mer rundede hjørner */
+    text-decoration: none; /* Fjerner lenkens standard understreking */
+    transition: transform 0.3s ease, background-color 0.3s ease;
+  }
+  
+  .prosjekter:hover {
+    background-color: #D3D9D4; 
+    transform: scale(1.1); 
+    cursor: pointer; 
+  }
+
+
+  .site-footer nav ul {
+    display: flex; /* Bruker Flexbox for å vise elementene horisontalt */
+    justify-content: center; /* Sentraliserer lenkene horisontalt */
+    padding: 0;
+    
+  }
+  
+  .site-footer nav ul li {
+    margin-right: 20px; /* Mellomrom mellom listene */
+  }
+  
+  .site-footer nav ul li:last-child {
+    margin-right: 0; /* Fjerner mellomrom etter siste lenke */
+  }
+  
+
+  
+  .link-container {
+    text-align: center; /* Sentraliserer innholdet */
+    width: 150px; /* Juster bredde for å matche bildet */
+    margin: 10px auto; /* Legger til avstand */
+  }
+  .link-container img {
+    width: 100%; /* Sørger for at bildet tilpasser seg */
+    height: auto; /* Bevarer proporsjoner */
+    border-radius: 8px; /* Runde hjørner (valgfritt) */
+  }
+  .link-container a {
+    text-decoration: none; /* Fjern understreking på lenker */
+    color: #748D92; /* Velg tekstfarge */
+    font-size: 14px; /* Juster tekststørrelse */
+    display: block; /* Gjør teksten klikkbar */
+    margin-top: 5px; /* Avstand mellom bilde og tekst */
+  }
+  .link-container a:hover {
+    color: #748D92;
+  }
+
+
+
+/* Container for flip-card og info */
+.container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+/* Info-styling */
+.info {
+  font-family: verdana;
+  font-size: 16px;
+  color: #748D92;
+  max-width: 400px; /* Begrens bredden på teksten */
+  margin: 0;
+}
+
+/* Flip-card styling */
+.flip-card {
+  background-color: transparent;
+  perspective: 1000px; /* 3D perspektiv for å lage en realistisk flip-effekt */
+}
+
+/* Flip-kortets indre, som holder både forside og bakside */
+.flip-card-inner {
+  position: relative;
+  width: 200px; /* Størrelse på flip-kortet */
+  height: 300px;
+  transform-style: preserve-3d; /* Gir kortet 3D-effekten */
+  transition: transform 0.6s; /* Jevn overgang ved hover */
+}
+
+/* Når kortet er i hover, roterer det */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg); /* Roterer kortet på Y-aksen */
+}
+
+/* Forsiden og baksiden av flip-kortet */
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden; /* Skjuler baksiden når den er rotert bort */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flip-card-front {
+  z-index: 2; /* Forsiden skal alltid vises før baksiden */
+}
+
+.flip-card-back {
+  transform: rotateY(180deg); /* Roterer baksiden 180 grader */
+  z-index: 1; /* Bakside skal være bak forsiden når kortet er i vanlig posisjon */
+  color: #748D92;
+  font-size: 15px;
+}
+
+/* Hvis du har et bilde på forsiden */
+.flip-card-front img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Sørger for at bildet dekker hele plassen */
+}
+.Left{
+  color: #748D92;
+}
